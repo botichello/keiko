@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import React from 'react'
-import logo from '../../../public/media/keiko_logo_upscaled_no_bg.png'
+import logo from '../../../public/media/keiko_logo_upscaled_no_bg-1.png'
 
 interface Props {
   className?: string
