@@ -1,6 +1,5 @@
 import clsx from 'clsx'
 import React from 'react'
-import logo from '../../../public/media/keiko_logo_upscaled_no_bg-1.png'
 
 interface Props {
   className?: string
@@ -24,7 +23,7 @@ export const Logo = (props: Props) => {
       fetchPriority={priority}
       decoding="async"
       className={clsx('max-w-[9.375rem] w-full h-[46px]', className)}
-      src={logo.src}
+      src="keiko_logo_upscaled_no_bg-1.png"
     />
   )
 }
