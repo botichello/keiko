@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import React from 'react'
+import logo from '../../../public/media/keiko_logo_upscaled_no_bg.png'
 
 interface Props {
   className?: string
@@ -18,12 +19,12 @@ export const Logo = (props: Props) => {
     <img
       alt="Payload Logo"
       width={193}
-      height={34}
+      height={46}
       loading={loading}
       fetchPriority={priority}
       decoding="async"
-      className={clsx('max-w-[9.375rem] w-full h-[34px]', className)}
-      src="https://raw.githubusercontent.com/payloadcms/payload/main/packages/ui/src/assets/payload-logo-light.svg"
+      className={clsx('max-w-[9.375rem] w-full h-[46px]', className)}
+      src={logo.src}
     />
   )
 }

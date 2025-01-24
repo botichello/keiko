@@ -101,3 +101,32 @@ html[data-theme='dark'],
 html[data-theme='light'] {
   opacity: initial;
 }
+
+.rich-text-title {
+      --tw-prose-invert-headings: #1E2648 !important;
+    }
+    
+.rich-text-title h1 {
+  font-size: 4.5em;
+  font-weight: bolder;
+  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.8);
+  }
+    
+/* Responsive sizes using media queries */
+@media (max-width: 1024px) {
+  .rich-text-title h1 {
+    font-size: 3.5em; /* Slightly smaller for medium screens */
+  }
+}
+    
+@media (max-width: 768px) {
+  .rich-text-title h1 {
+    font-size: 2.5em; /* Smaller for tablet screens */
+  }
+}
+    
+@media (max-width: 480px) {
+  .rich-text-title h1 {
+    font-size: 1.8em; /* Smallest for mobile screens */
+  }
+}
